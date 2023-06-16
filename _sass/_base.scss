@@ -55,6 +55,10 @@ p {
     color: rgba(white, .7);
 }
 
+.text-faded:hover {
+    color: rgba(white, 1.0);
+}
+
 section {
     padding: 100px 0;
 }
@@ -155,7 +159,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/header.png');
     text-align: center;
     color: white;
     .header-content {
@@ -191,11 +195,11 @@ header {
             transform: translateY(-50%);
             padding: 0 50px;
             .header-content-inner {
-                max-width: 1000px;
+                max-width: 80vw;
                 margin-left: auto;
                 margin-right: auto;
                 p {
-                    font-size: 18px;
+                    font-size: 2rem;
                     max-width: 80%;
                     margin-left: auto;
                     margin-right: auto;
@@ -215,10 +219,14 @@ header {
     max-width: 400px;
     margin: 50px auto 0;
     @media (min-width: 992px) {
-        margin: 20px auto 0;
+        margin: 5rem auto 0;
     }
     p {
         margin-bottom: 0;
+    }
+
+    img{
+        height: 7rem;
     }
 }
 
@@ -349,3 +357,86 @@ body {
     -webkit-tap-highlight-color: $theme-dark;
 }
 
+.method {
+    background-color: white;
+    border-radius: 2rem;
+    color: rgba(black, .5);
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    height: 17rem;
+    .first{
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: $theme-primary;
+    }
+    h3{
+        padding: 0;
+        margin: 0;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+    }
+
+    p{
+        line-height: 100%;
+        margin: 0.5;
+    }
+}
+
+section#contactformform .section-heading {
+    color: #fff;
+}
+
+section#contactform .form-group {
+    margin-bottom: 25px;
+}
+
+section#contactform .form-group input,
+section#contactform .form-group textarea {
+    padding: 20px;
+}
+
+section#contactform .form-group input.form-control {
+    height: auto;
+}
+
+section#contactform .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#contactform .form-control:focus {
+    border-color: $theme-primary;
+    box-shadow: none;
+}
+
+section#contactform::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contactform:-moz-placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contactform::-moz-placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contactform:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contactform .text-danger {
+    color: #e74c3c;
+}
+
+section#contactform .submit-button{
+    background-color: $theme-primary;
+}

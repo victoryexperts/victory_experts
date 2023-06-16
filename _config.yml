@@ -1,12 +1,14 @@
 # Site settings
-title:
-email:
+title: "Victory Singapore - Your Trusted Business Financing Partner"
+email: "accounts@victoryexperts.net"
+address: "International Plaza\n10 Anson Road, #27-04,\nSingapore 079903"
+phoneNum1: "+65 6980 8846"
+phoneNum2: "+65 8772 5517"
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-
-twitter_username:
-github_username:
-
+tagline: "We Rise By Lifting Each Other"
+subtitle: "Empower your business with smart financing solution. Talk to our advisor today!"
+companyName: "Victory Singapore"
 # Build settings
 markdown: kramdown
