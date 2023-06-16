@@ -383,60 +383,86 @@ body {
     }
 }
 
-section#contactformform .section-heading {
+section#contactformsec .section-heading {
     color: #fff;
 }
 
-section#contactform .form-group {
+section#contactformsec .form-group {
     margin-bottom: 25px;
 }
 
-section#contactform .form-group input,
-section#contactform .form-group textarea {
+section#contactformsec .form-group input,
+section#contactformsec .form-group textarea {
     padding: 20px;
 }
 
-section#contactform .form-group input.form-control {
+section#contactformsec .form-group input.form-control {
     height: auto;
 }
 
-section#contactform .form-group textarea.form-control {
+section#contactformsec .form-group textarea.form-control {
     height: 236px;
 }
 
-section#contactform .form-control:focus {
+section#contactformsec .form-control:focus {
     border-color: $theme-primary;
     box-shadow: none;
 }
 
-section#contactform::-webkit-input-placeholder {
+section#contactformsec::-webkit-input-placeholder {
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contactform:-moz-placeholder {
+section#contactformsec:-moz-placeholder {
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contactform::-moz-placeholder {
+section#contactformsec::-moz-placeholder {
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contactform:-ms-input-placeholder {
+section#contactformsec:-ms-input-placeholder {
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contactform .text-danger {
+section#contactformsec .text-danger {
     color: #e74c3c;
 }
 
-section#contactform .submit-button{
+section#contactformsec .submit-button{
     background-color: $theme-primary;
+}
+
+fieldset
+{
+    border: 2px $theme-primary;
+    border-style: dashed;
+    padding: 1rem;
+
+    h3{
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+.legend1
+{
+  margin-bottom:0px;
+  margin-left:16px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  width: auto;
+  border: 0;
+  font-weight: 700;
+  font-size: 3rem;
+  color: $theme-primary;
 }

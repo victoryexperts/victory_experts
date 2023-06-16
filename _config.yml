@@ -10,5 +10,6 @@ url: "" # the base hostname & protocol for your site
 tagline: "We Rise By Lifting Each Other"
 subtitle: "Empower your business with smart financing solution. Talk to our advisor today!"
 companyName: "Victory Singapore"
+description: "Empower your business with tailored financial solutions. We provide loans for SMEs, property, machinery, trade, and projects. Partner with us for flexible funding options, competitive rates, and exceptional service. Achieve your goals with Victory Singapore."
 # Build settings
 markdown: kramdown
