@@ -1,5 +1,5 @@
 # Site settings
-title: "Victory Singapore - Your Trusted Business Financing Partner"
+title: "Victory Experts Group - Your Trusted Business Financing Partner"
 email: "accounts@victoryexperts.net"
 address: "International Plaza\n10 Anson Road, #27-04,\nSingapore 079903"
 phoneNum1: "+65 6980 8846"
@@ -7,9 +7,9 @@ phoneNum2: "+65 8772 5517"
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-tagline: "We Rise By Lifting Each Other"
+tagline: "Singapore Customized Business Experts Loan Advisors"
 subtitle: "Empower your business with smart financing solution. Talk to our advisor today!"
-companyName: "Victory Singapore"
+companyName: "Victory Experts Group"
 description: "Empower your business with tailored financial solutions. We provide loans for SMEs, property, machinery, trade, and projects. Partner with us for flexible funding options, competitive rates, and exceptional service. Achieve your goals with Victory Singapore."
 # Build settings
 markdown: kramdown
