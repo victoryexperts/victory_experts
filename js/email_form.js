@@ -1,6 +1,6 @@
 $(function() {
 
-    $("#emailForm input,textarea").jqBootstrapValidation({
+    $("#emailForm #eemail,#ephone,#emessage").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
@@ -11,10 +11,10 @@ $(function() {
             $("#emailModal #sendEmailButton").prop('disabled', true);
             // get values from FORM
             var name = "N/A";
-            var email = $("#emailModal input#email").val();
+            var email = $("#emailModal input#eemail").val();
             var company = "N/A";
-            var phone = $("#emailModal input#phone").val();
-            var message = $("#emailModal textarea#message").val();
+            var phone = $("#emailModal input#ephone").val();
+            var message = $("#emailModal textarea#emessage").val();
             var promocode = "N/A"
             
             let data = {

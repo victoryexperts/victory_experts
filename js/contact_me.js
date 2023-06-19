@@ -1,6 +1,6 @@
 $(function() {
 
-    $("#contactformsec input,textarea").jqBootstrapValidation({
+    $("#contactformsec #cname,#cemail,#ccompanyName,#cphone,#cmessage,#cpromocode").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
@@ -10,12 +10,12 @@ $(function() {
             $("#contactformsec #contactButton").html('Sending...');
             $("#contactformsec #contactButton").prop('disabled', true);
             // get values from FORM
-            var name = $("#contactformsec input#name").val();
-            var email = $("#contactformsec input#email").val();
-            var company = $("#contactformsec input#companyName").val();
-            var phone = $("#contactformsec input#phone").val();
-            var message = $("#contactformsec textarea#message").val();
-            var promocode = $("#contactformsec input#promocode").val();
+            var name = $("#contactformsec input#cname").val();
+            var email = $("#contactformsec input#cemail").val();
+            var company = $("#contactformsec input#ccompanyName").val();
+            var phone = $("#contactformsec input#cphone").val();
+            var message = $("#contactformsec textarea#cmessage").val();
+            var promocode = $("#contactformsec input#cpromocode").val();
             
             if (company === null) {
                 company = "";
