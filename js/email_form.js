@@ -51,8 +51,8 @@ $(function() {
                         $("#emailModal").modal("hide");
 
                         // Construct mailto link
-                        var mailtoLink = "mailto:" + encodeURIComponent(email) +
-                                        "?subject=" + encodeURIComponent("Enquiry on services") +
+                        var mailtoLink = "mailto:" + encodeURIComponent("accounts@victoryexperts.net") +
+                                        "?subject=" + encodeURIComponent("Services enquiry from "+email+" "+phone) +
                                         "&body=" + encodeURIComponent(message);
 
                         // Open user's default email client
