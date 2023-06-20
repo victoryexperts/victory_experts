@@ -466,3 +466,44 @@ fieldset
   font-size: 3rem;
   color: $theme-primary;
 }
+
+.header-logo {
+    height: 3rem;
+    margin-top: -0.8rem;
+}
+
+.company-name {
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+@media (max-width: 370px) {
+    .header-logo {
+        display: none;
+    }
+    
+    
+    .company-name {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 790px){
+    .header-logo {
+        height: 2rem;
+        margin-top: -0.8rem;
+    }
+    
+    
+    .company-name {
+        font-size: 1.5rem;
+        margin-left: -0.5rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .company-name {
+        font-size: 2rem;
+        padding: 0;
+    }
+}
